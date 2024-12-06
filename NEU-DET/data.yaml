@@ -1,0 +1,6 @@
+train: ../NEU-DET/train/images  #训练路径
+val: ../NEU-DET/valid/images    #验证路径
+
+nc: 6                           #表示类别个数
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
+                                #类别名称
